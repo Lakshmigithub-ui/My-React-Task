@@ -1,15 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import InstaVideo from './components/InstaVideo';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+// import InstaVideo from './components/InstaVideo';
+// import ContactForm from './components/ContactForm';
+import { BrowserRouter } from "react-router-dom";
+import Routingconfig from "./components/Routingconfig";
+import Menu from "./components/Menu";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <BrowserRouter>
+      <Menu></Menu>
+      <Routingconfig></Routingconfig>
+    </BrowserRouter>
+
     {/* <App /> */}
-    <InstaVideo />
+    {/* <Home /> */}
+    {/* <InstaVideo /> */}
+    {/* <ContactForm /> */}
   </React.StrictMode>
 );
 
