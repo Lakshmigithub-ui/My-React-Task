@@ -1,0 +1,16 @@
+.style{
+    color: brown;
+    margin-top: 80px;
+    margin-left: 250px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+    background-color: rgb(253, 180, 180);
+    border-radius: 20px;
+    background: 1px solid blue;
+}
+.style1{
+    color: brown;
+}

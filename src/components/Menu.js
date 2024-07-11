@@ -1,11 +1,15 @@
 import {Link} from 'react-router-dom';
+import navstyle from './navstyle.css';
 
 function Menu()
 {
     return <>
-        <Link to='/'>Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Link>
-        <Link to='InstaVideo'>Insta Video &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
-        <Link to='ContactForm'>Contact Form</Link>
+    <div className='navbar'>
+
+        <Link className='nav-color' to='/'>Home</Link>
+        <Link className='nav-color' to='InstaVideo'>Video</Link>
+        <Link className='nav-color' to='ContactForm'>Contact</Link>
+    </div>
     </>
 }
 

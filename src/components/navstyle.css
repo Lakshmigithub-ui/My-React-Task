@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px rgb(14, 176, 240);
+}
+
+.nav-color{
+    width: 100px;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+    outline: none;
+    border: 1px solid#dd6464;
+    color: #c53a3a;
+    font-size: 20px;
+    font-weight: 400;
+    flex-direction: column;
+    cursor: pointer;
+    background:rgb(219, 230, 243);
+    border-radius: 75px;
+   
+}
