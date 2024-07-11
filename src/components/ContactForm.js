@@ -15,14 +15,14 @@ const ContactForm = () => {
       <br />  <br />
       <label>
         Name:
-        <input  type="text" name="name" />
+        <input  type="text" name="name" placeholder="Type your name"/>
       </label>
 
       <br /> <br />
 
       <label>
         Contact Number:
-        <input type="text" name="contactNumber" />
+        <input type="text" name="contactNumber" placeholder="Contact number" />
       </label>
       <br /> <br />
 
