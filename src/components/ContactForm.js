@@ -9,44 +9,34 @@ const ContactForm = () => {
     gender: '',
   });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission
-    console.log(formData);
-  };
 
   return (
-    <form  className='style' onSubmit={handleSubmit}>
+    <form  className='style'>
       <br />  <br />
       <label>
         Name:
-        <input  type="text" name="name" value={formData.name} onChange={handleChange} />
+        <input  type="text" name="name" />
       </label>
 
       <br /> <br />
 
       <label>
         Contact Number:
-        <input type="text" name="contactNumber" value={formData.contactNumber} onChange={handleChange} />
+        <input type="text" name="contactNumber" />
       </label>
       <br /> <br />
 
 
       <label>
         Date of Birth:
-        <input type="date" name="dob" value={formData.dob} onChange={handleChange} />
+        <input type="date" name="dob"  />
       </label>
       <br /> <br />
 
 
       <label>
         Gender:
-        <select name="gender" value={formData.gender} onChange={handleChange}>
+        <select name="gender" >
           <option value="">Select</option>
           <option value="male">Male</option>
           <option value="female">Female</option>
