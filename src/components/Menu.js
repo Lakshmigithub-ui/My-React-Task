@@ -7,7 +7,8 @@ function Menu()
     <div className='navbar'>
 
         <Link className='nav-color' to='/'>Home</Link>
-        <Link className='nav-color' to='InstaVideo'>Video</Link>
+        {/* <Link className='nav-color' to='InstaVideo'>Video</Link> */}
+        <Link className='nav-color' to='Videoplayer'>Video</Link>
         <Link className='nav-color' to='ContactForm'>Contact</Link>
     </div>
     </>
