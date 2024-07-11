@@ -2,6 +2,12 @@ import React, { useState } from "react";
 import Form from "./Form.css";
 
 function ContactForm() {
+  const [file, setFile] = useState()
+
+  function  Filehandle(event){
+    setFile(event.target.files[0])
+    console.log(file)
+  }
 
   return (
     <>
@@ -37,13 +43,9 @@ function ContactForm() {
         </label>
         <br />
         <br />
-        <input
-          type="button"
-          value="choose file"
-          placeholder="choose file"
-        ></input>
-        <input type="button" value="Upload file"></input>
-        <br></br>
+        <input type="file" name="file"></input>
+        <button>Upload</button>
+        <br/> <br/>
         <button className="style1" type="submit">
           Submit
         </button>

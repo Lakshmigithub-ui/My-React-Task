@@ -6,10 +6,9 @@
 }
 
 .nav-color{
-    width: 100px;
-    height: 50px;
-    padding-left: 20px;
-    padding-top: 10px;
+    width: 80px;
+    height: 30px;
+    padding-left:9px;
     outline: none;
     border: 1px solid#dd6464;
     color: #c53a3a;
