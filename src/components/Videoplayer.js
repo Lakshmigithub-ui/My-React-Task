@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import player from './player.css'
 
 const videos = [
   "https://videos.pexels.com/video-files/3545877/3545877-hd_1280_720_30fps.mp4",
@@ -17,7 +18,7 @@ const VideoPlayer = () => {
   };
 
   return (
-    <div>
+    <div className="playerstyle">
       <video
         key={videos[currentVideo]}
         src={videos[currentVideo]}
@@ -25,6 +26,7 @@ const VideoPlayer = () => {
         autoplay
         style={{ width: "50%", maxheight: "20px" }}
       />
+    
       <button onClick={handleNextVideo}>
         <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width='70px' height='70px'></img>
       </button>
