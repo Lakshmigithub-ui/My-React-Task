@@ -6,8 +6,8 @@ import reportWebVitals from "./reportWebVitals";
 // import InstaVideo from './components/InstaVideo';
 // import ContactForm from './components/ContactForm';
 import { BrowserRouter } from "react-router-dom";
-import Routingconfig from "./components/Routingconfig";
-import Menu from "./components/Menu";
+import Routingconfig from "./components/RoutingConfig/Routingconfig";
+import Menu from "./components/Menu/Menu";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

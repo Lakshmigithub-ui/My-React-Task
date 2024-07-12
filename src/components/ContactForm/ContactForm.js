@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Form from "./Form.css";
 
 function ContactForm() {
+  const url = 'http://localhost:8000/api/register/create'
   const [file, setFile] = useState()
 
   function  Filehandle(event){

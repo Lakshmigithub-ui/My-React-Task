@@ -1,0 +1,7 @@
+.video{
+    display: inline-block;
+    margin: 0px 50px;
+    color: blueviolet;
+    /* flex-direction: column; */
+    /* gap: 17px; */
+}
