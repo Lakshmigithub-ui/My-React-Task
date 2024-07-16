@@ -14,18 +14,22 @@ function Menu() {
         </div>
 
         <div className="navbar-middle">
-          <Link className="nav-color" to="/">
+          <Link className="nav-color" style={{ textDecoration: 'none' }} to="/">
             Home
           </Link>
-          <Link className="nav-color" to="Videoplayer">
+          <Link className="nav-color" style={{ textDecoration: 'none' }} to="Videoplayer">
             Player
           </Link>
-          <Link className="nav-color" to="ContactForm">
+          <Link className="nav-color" style={{ textDecoration: 'none' }} to="ContactForm">
             Form
           </Link>
-          <Link className="nav-color" to="InstaVideo">
+          <Link className="nav-color" style={{ textDecoration: 'none' }} to="InstaVideo">
             Videos
           </Link>
+          <Link className="nav-color" style={{ textDecoration: 'none' }} to="Integrateform">
+            API
+          </Link>
+
         </div>
 
         <div className="navbar-right">
